@@ -16,12 +16,12 @@ Include bgCover.css and bgCover.js in your head tag after jQuery.
 
 Your html document structure should be as follows:
 
-<code>
+<pre>
     <div id="#bgCover-outer">
         <div id="#bgCover-inner">
             <img src="test.png" alt="test" />
         </div>
     </div>
-</code>
+</pre>
 
 The exact id's used above must be used.
