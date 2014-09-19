@@ -18,11 +18,11 @@ Your html document structure should be as follows:
 
 '''html
 <pre>
-    <div id="#bgCover-outer">
-        <div id="#bgCover-inner">
-            <img src="test.png" alt="test" />
-        </div>
-    </div>
+<div id="#bgCover-outer">
+<div id="#bgCover-inner">
+<img src="test.png" alt="test" />
+</div>
+</div>
 </pre>
 '''
 
