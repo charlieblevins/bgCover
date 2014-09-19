@@ -16,7 +16,7 @@ Include bgCover.css and bgCover.js in your head tag after jQuery.
 
 Your html document structure should be as follows:
 
-'''html
+```html
 <pre>
 <div id="#bgCover-outer">
 <div id="#bgCover-inner">
@@ -24,12 +24,7 @@ Your html document structure should be as follows:
 </div>
 </div>
 </pre>
-'''
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
 ```
+
 
 The exact id's used above must be used.
