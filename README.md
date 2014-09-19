@@ -5,13 +5,12 @@ A very light-weight plugin for making background images cover the screen, no mat
 
 
 #Requirements
-=======
 
-jQuery
+<a href="http://jquery.com/">jQuery</a>
 
 
 #Instructions
-=======
+
 Include bgCover.css and bgCover.js in your head tag after jQuery.
 
 ```html
@@ -25,16 +24,16 @@ Include bgCover.css and bgCover.js in your head tag after jQuery.
 Your html document structure should be as follows:
 
 ```html
-<pre>
+<body>
     <div id="#bgCover-outer">
         <div id="#bgCover-inner">
             <img src="test.png" alt="test" />
         </div>
     </div>
-</pre>
+</body>
 ```
 
 
-The exact id's used above must be used.
+The id's used above are required for the plugin to function.
 
 Thanks for giving it a try!
