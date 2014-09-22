@@ -9,10 +9,6 @@ function bgCover(){
         bgCoverImg = $('#bgCover-inner img');
         calculateSize( bgCoverImg );
 
-        //Calculates usable width/height and margin 
-        //depending on the image's size
-        w = bgCoverImg.width();
-        h = bgCoverImg.height();
     });
 
     $(window).load(function(){
@@ -27,6 +23,11 @@ function bgCover(){
 
     });
     function calculateSize(img){
+        //Calculates usable width/height and margin 
+        //depending on the image's size
+        w = bgCoverImg.width();
+        h = bgCoverImg.height();
+        
         //ratio of h to w 
         var r = h / w;
 
